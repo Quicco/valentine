@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 252, 223, 255);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 5rem;
+  font-family: 'Rubik';
+  text-align: center;
+}
+
+.accepted-pic {
+  border: 10px solid rgba(255, 252, 223, 255);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .accepted-pic {
+    border-radius: 10px;
+    margin: 0.75rem;
+    scale: 0.8;
+  }
+
+  .btn {
+    margin: 0.5rem;
+  }
+}
